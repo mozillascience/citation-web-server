@@ -1,0 +1,25 @@
+{
+  "name": "citation-web-server",
+  "version": "0.0.1",
+  "description": "The node based server for the software citation tools.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam1360/citation-web-server.git"
+  },
+  "keywords": [
+    "citation"
+  ],
+  "author": ["Eric Lee <nokeeo@me.com>", "Robert Lowe <rdl8212@rit.edu>", "Colin O'Neill <cmo6720@rit.edu>", "Samuel Mosher <sam1360@rit.edu>", "mozillafoundation"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sam1360/citation-web-server/issues"
+  },
+  "homepage": "https://github.com/sam1360/citation-web-server#readme"
+}
