@@ -16,10 +16,21 @@
   "keywords": [
     "citation"
   ],
-  "author": ["Eric Lee <nokeeo@me.com>", "Robert Lowe <rdl8212@rit.edu>", "Colin O'Neill <cmo6720@rit.edu>", "Samuel Mosher <sam1360@rit.edu>", "mozillafoundation"],
+  "author": [
+    "Eric Lee <nokeeo@me.com>",
+    "Robert Lowe <rdl8212@rit.edu>",
+    "Colin O'Neill <cmo6720@rit.edu>",
+    "Samuel Mosher <sam1360@rit.edu>",
+    "mozillafoundation"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sam1360/citation-web-server/issues"
   },
-  "homepage": "https://github.com/sam1360/citation-web-server#readme"
+  "homepage": "https://github.com/sam1360/citation-web-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "citation-core": "^1.0.1",
+    "express": "^4.15.0"
+  }
 }
