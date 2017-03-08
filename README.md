@@ -17,7 +17,7 @@ From there the server should be running locally.
 ## Contributor Install
 If you are interested in contributing to citation-plugin please follow these install instructions. They will add a pre-commit hook that will run our linter and reject commits that do not meet the project's coding standards.  We are adhereing to the [AirBnb style guide](https://github.com/airbnb/javascript). 
 ```
-git clone https://github.com/mozillascience/citation-plugin.git
+git clone https://github.com/mozillascience/citation-web-server.git
 cd Plugin
 cp dev/pre-commit .git/hooks/
 ```
