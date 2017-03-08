@@ -1,6 +1,6 @@
 {
   "name": "citation-web-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The node based server for the software citation tools.",
   "main": "index.js",
   "directories": {

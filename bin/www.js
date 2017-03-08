@@ -9,7 +9,6 @@ app.set('port', port);
 
 /**
  * Start App after sequelize sync.
- *
  * @return {undefined}
  */
 var server = app

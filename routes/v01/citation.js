@@ -1,4 +1,5 @@
 "use strict";
+
 var express = require('express');
 var router = express.Router();
 var citations = require('../../lib/citationGeneration');
@@ -8,4 +9,4 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', [], citations.generate);
-module.exports = router
+module.exports = router;
