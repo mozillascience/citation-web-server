@@ -1,0 +1,26 @@
+.navbar, .form-btn {
+    background: #28A75F;
+}
+
+.form-btn {
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.form-btn:hover {
+    background:#39B770;
+    color: #FFFFFF;
+}
+
+.form-btn:active {
+    background: #1F6C41;
+    color: #FFFFFF;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.panel {
+    margin-top: 1em;
+}
