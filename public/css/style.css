@@ -24,3 +24,15 @@ main {
 .panel {
     margin-top: 1em;
 }
+
+#citationOutput {
+    display: none;
+}
+
+#citationOutput > div.panel-body {
+    font-style: italic;
+}
+
+#citationOutput > div.panel-body.error {
+    color: #FF2222;
+}
