@@ -9,10 +9,10 @@ router.use('/citation', require('./citation'));
 
 router.get('/', function(req, res) {
   res.send('Citation System API');
-})
+});
 
 router.get('/about', function(req, res) {
   res.send('api.SoftwareCitationTools.com');
-})
+});
 
 module.exports = router;
