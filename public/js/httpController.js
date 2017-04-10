@@ -24,18 +24,13 @@ function replaceCitation(msg, error) {
     }
 }
 
-function getCitation(window) {
-    var data, url;
-
-    url = 'https://boiling-lake-36327.herokuapp.com/v01/citation/';
-    console.log(url);
-
-    data = {
+function getCitation() {
+    var data = {
         style: $('#citationFormat').val(),
         url: $('#citationUrl').val()
     }
 
-    $.post(url, data)
+    $.post(window.location.href.slice(0, window.location.href.indexOf('?')) + '/v01/citation/', data)
         .done(function (returnData) {
             console.log(returnData);
             replaceCitation(returnData.citation);
