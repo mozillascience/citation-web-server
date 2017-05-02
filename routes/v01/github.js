@@ -1,6 +1,6 @@
 
 const express = require('express');
-const citations = require('../../lib/citationGeneration');
+const github = require('../../lib/github.js');
 
 const router = express.Router();
 
@@ -8,5 +8,7 @@ router.get('/', (req, res) => {
   res.send('Citation web server api');
 });
 
-router.post('/', [], citations.generate);
+router.post('/secret', [], github.generateSecret);
+router.post('/token', [], github.getAccessToken);
+
 module.exports = router;

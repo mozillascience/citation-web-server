@@ -1,17 +1,16 @@
-var express = require('express');
-var router = express.Router();
+
+const express = require('express');
+
+const router = express.Router();
 
 router.use('/citation', require('./citation'));
+router.use('/gitHub', require('./github'));
 
-// This may not be needed.  Sessions are not 
-// used so Angular may be able to log out by 
-// simply destroying the token
-
-router.get('/', function(req, res) {
+router.get('/', (req, res) => {
   res.send('Citation System API');
 });
 
-router.get('/about', function(req, res) {
+router.get('/about', (req, res) => {
   res.send('api.SoftwareCitationTools.com');
 });
 

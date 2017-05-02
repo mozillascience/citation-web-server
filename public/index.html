@@ -60,6 +60,30 @@
       </div>
     </main>
 
+    <!-- Authorize GitHub Modal -->
+    <div id="authorizeGitHubModal" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title">GitHub Authorization Required</h4>
+            </div>
+            <div class="modal-body">
+              <p>In order to provide citations for GitHub, you must log in and authorize Citation App</p>
+              <p>We will now direct you to GitHub to complete this process.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+              <button id="authorizeGitHubBtn" type="button" class="btn btn-primary">Continue</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap -->
