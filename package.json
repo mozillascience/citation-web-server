@@ -1,6 +1,6 @@
 {
   "name": "citation-web-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The node based server for the software citation tools.",
   "main": "index.js",
   "directories": {
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/sam1360/citation-web-server#readme",
   "dependencies": {
     "body-parser": "^1.17.0",
-    "citation-core": "^1.1.0",
+    "citation-core": "^1.1.1",
     "express": "^4.15.0",
     "request": "^2.81.0"
   },
