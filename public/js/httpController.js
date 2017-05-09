@@ -1,6 +1,7 @@
 
 
-const GITHUB_CLIENT_ID = '2c034c1c587df515c7d9';
+const GITHUB_CLIENT_ID = '92ead414d69dd0f9ef84';
+
 const urlParams = new Map(window.location.search.slice(1).split('&').map(e => [e.split('=')[0], e.split('=')[1]]));
 
 function replaceCitation(msg, error) {
@@ -84,6 +85,7 @@ function getGitHubToken() {
       console.error(`Error (HTTP status code ${status}): ${err}`);
     });
 }
+
 
 function getCitation() {
   let authToken;
