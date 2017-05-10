@@ -110,7 +110,10 @@ function getCitation() {
     url: src,
   };
 
-  $.post(`${window.location.href.slice(0, window.location.href.indexOf('?'))}v01/citation/`, data)
+  const citationUrl = window.location.protocol + "//" + window.location.hostname + "/v01/citation";
+
+
+  $.post(citationUrl, data)
     .done((returnData) => {
       if (returnData.citation) {
         replaceCitation(returnData.citation);
@@ -136,5 +139,12 @@ $('#citeBtn').click((evt) => {
 });
 
 if (urlParams.has('code')) {
-  getGitHubToken();
+  if (~document.cookie.indexOf('gitHubToken=')) {
+
+  }
+  else {
+    getGitHubToken();
+  }
 }
+
+
